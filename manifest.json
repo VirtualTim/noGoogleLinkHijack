@@ -3,6 +3,12 @@
   "version": "1.0",
   "manifest_version": 3,
   "description": "Stops google search (including image search) from replacing links when you click on them.",
+  "id": "noGoogleLinkHijack@idontknowwhyineedthis.com",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "noGoogleLinkHijack@idontknowwhyineedthis.com"
+    }
+  },
   "icons": {
     "48": "icons/icon-48.png"
   },
@@ -201,7 +207,7 @@
         "https://www.google.co.zw/search*",
         "https://www.google.cat/search*"
 	  ],
-      "js": ["content.js"],
+      "js": ["content-search.js"],
       "run_at": "document_idle"
     },
 	{
@@ -398,7 +404,7 @@
         "https://www.google.co.zw/imgres*",
         "https://www.google.cat/imgres*"
 	  ],
-      "js": ["content.js"],
+      "js": ["content-imgres.js"],
       "run_at": "document_idle"
     }
   ],
