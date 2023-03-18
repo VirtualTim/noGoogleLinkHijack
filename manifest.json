@@ -1,6 +1,6 @@
 {
   "name": "No Google Link Hijack",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 3,
   "description": "Stops google search (including image search) from replacing links when you click on them.",
   "id": "noGoogleLinkHijack@idontknowwhyineedthis.com",
@@ -16,7 +16,7 @@
     {
       //Generated from https://www.google.com/supported_domains
       "matches": [
-      "*://www.google.com/search*",
+        "*://www.google.com/search*",
         "*://www.google.ad/search*",
         "*://www.google.ae/search*",
         "*://www.google.com.af/search*",
@@ -213,7 +213,7 @@
     {
       //Generated from https://www.google.com/supported_domains
       "matches": [
-      "*://www.google.com/imgres*",
+        "*://www.google.com/imgres*",
         "*://www.google.ad/imgres*",
         "*://www.google.ae/imgres*",
         "*://www.google.com.af/imgres*",
