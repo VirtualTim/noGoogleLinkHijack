@@ -1,0 +1,16 @@
+name: Zip Files
+on: release
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+      - name: Zip Files
+        run: |
+          zip -r noGoogleLinkHijack.zip *.js *.json icons
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: noGoogleLinkHijack.zip
+          path: noGoogleLinkHijack.zip
