@@ -2,7 +2,7 @@
   "name": "No Google Link Hijack",
   "version": "1.0",
   "manifest_version": 3,
-  "description": "Stops google search Removes the data-jsarwt attribute from all links on Google domains",
+  "description": "Stops google search (including image search) from replacing links when you click on them.",
   "icons": {
     "48": "icons/icon-48.png"
   },
